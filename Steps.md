@@ -14,7 +14,7 @@ Git tips
  6. SYNCRONIZE LOCAL BRANCH
  `git pull origin master`
  7. UPLOAD CHANGES
-`git pull origin master`
+`git push origin feature/1`
  8. VIEW CHANGE HISTORY
 `git log`
 
