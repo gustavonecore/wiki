@@ -1,20 +1,25 @@
 Git tips
 ========
+Overview
+These steps summarize what will be done from the cloning of remote part to your team as well as the realization of changes in both remote and local.
 
- 1. GIT CLONE
+ 1. Git clone
 	`git clone https://github.com/gustavonecore/wiki.wiki.git`
- 2. CREATION NEW BRANCH
-	`git checkout -b feature/1 master`
- 3.  STATUS ARCHIVES
+ 2. Creation new branch
+ `git checkout -b feature/1 master`
+ 3. Change your code here...	
+ 4. Status archives 
+    Lookup modified/added files from your local work
 	`git status`
- 4. ADD ARCHIVES 
-`git add ARCHIVE`
- 5.  SAVE CHANGES
+ 5. Add archives 
+ Add files to the commit `git add file1 file2 file4` or you can `add all git add .`
+`git add file 1` `git add .`
+ 6.  Save changes
 `git commit -m "#{ISSUE_NUMBER} :: commit wiki"`
- 6. SYNCRONIZE LOCAL BRANCH
+ 7. Syncronize local branch
  `git pull origin master`
- 7. UPLOAD CHANGES
+ 8. Upload changes
 `git push origin feature/1`
- 8. VIEW CHANGE HISTORY
-`git log`
-
+ 9. View change history
+ `git log`
+ 10. Go to github and create your PR!
