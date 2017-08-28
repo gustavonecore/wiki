@@ -1,4 +1,4 @@
-Git tips
+Common Git flow
 ========
 Overview
 These steps summarize what will be done from the cloning of remote part to your team as well as the realization of changes in both remote and local.
