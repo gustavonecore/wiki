@@ -19,7 +19,7 @@ These steps summarize what will be done from the cloning of remote part to your 
  	`git add file1 file2 file4` or you can add all with `git add .`
  6. Create the respective commit with your changed files an a message. Take a look to the {ISSUE_NUMBER}, should be replaced with the number of the N° of the ticket:
  
-	`git commit -m "#{ISSUE_NUMBER} :: commit wiki"` , e.g: git commit -m "#10 :: My message here"
+	`git commit -m "#{ISSUE_NUMBER} :: commit wiki"` , e.g: `git commit -m "#10 :: My message here"`
  7. Syncronize your local branch with the tarjet branch (optional)
  
  	`git pull origin {tarjet_branch}`
